@@ -1,17 +1,17 @@
 package com.service;
 
-import com.entity.RoleType;
-import com.entity.User;
-import com.entity.Role;
-import com.repository.RoleRepository;
-import com.repository.UserRepository;
+import java.util.List;
+import java.util.Optional;
+import java.util.Set;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import com.entity.Role;
+import com.entity.RoleType;
+import com.entity.User;
+import com.repository.RoleRepository;
+import com.repository.UserRepository;
 
 @Service
 public class UserService {
